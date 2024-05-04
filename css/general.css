@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Gotham";
+  src: url(./../gotham/gotham/GothamBook.ttf) format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #e2e2e2;
+  color: #222;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.primary-heading {
+  font-size: 4rem;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+
+  span {
+    color: rgb(83, 83, 253);
+  }
+}
+
+.secondary-heading {
+  color: white;
+}
+
+.description {
+  color: white;
+}
